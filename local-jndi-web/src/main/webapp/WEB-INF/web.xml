@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0">  
+    
+    <servlet>
+        <servlet-name>LocalTestServlet</servlet-name>
+        <servlet-class>com.mobilehealthworksllc.LocalTestServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LocalTestServlet</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+    
+</web-app>
